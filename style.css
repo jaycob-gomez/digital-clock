@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock {
+  color: #fff;
+  font-family: "Orbitron", monospace;
+  font-size: 6rem;
+  letter-spacing: 1rem;
+  font-family: bold;
+}
+
+.milliseconds {
+  color: #fff;
+  opacity: 70%;
+  font-size: 3rem;
+}
