@@ -17,8 +17,7 @@ function updateTime() {
   hours = hours < 10 ? "0" + hours : hours;
   minutes = minutes < 10 ? "0" + minutes : minutes;
   seconds = seconds < 10 ? "0" + seconds : seconds;
-  milliseconds = Math.floor(milliseconds / 10);
-  milliseconds = milliseconds < 10 ? "0" + milliseconds : milliseconds;
+  milliseconds = Math.floor(milliseconds / 100);
 
   const timeString = `${hours}:${minutes}:${seconds}`;
 
